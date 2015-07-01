@@ -1,7 +1,7 @@
 # This file should not be run directly; it exists to share setup code between the various scripts in try-reflex
 # Before running this script, DIR should be defined equal to the directory containing this script
 
-REPO="https://github.com/ryantrinkle/try-reflex"
+REPO="https://github.com/meiersi/try-blaze-react"
 
 NIXOPTS="--option extra-binary-caches https://ryantrinkle.com:5443/ -j 8"
 
