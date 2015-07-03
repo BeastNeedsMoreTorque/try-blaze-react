@@ -6,6 +6,7 @@ in this.nixpkgs.runCommand "shell" {
     echo "$propagatedBuildInputs $buildInputs $nativeBuildInputs $propagatedNativeBuildInputs" > $out
   '';
   buildInputs = [
+    this.nixpkgs.nodePackages.grunt-cli
     this.nixpkgs.nodejs
     this.nixpkgs.curl
     this.ghc.cabal-install
